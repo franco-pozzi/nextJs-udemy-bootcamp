@@ -4,7 +4,9 @@ import Head from 'next/head'
 
 import NavBar from "../NavBar";
 
-export default function MainLayout({ children }) {
+import { FC } from 'react';
+
+export const MainLayout: FC = ({ children }) => {
     return (
         <div className={styles.container}>
             <Head>

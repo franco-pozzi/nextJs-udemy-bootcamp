@@ -1,4 +1,4 @@
-import MainLayout from "../components/layouts/MainLayout";
+import {MainLayout} from "../../components/layouts/MainLayout";
 
 import Link from "next/dist/client/link";
 
