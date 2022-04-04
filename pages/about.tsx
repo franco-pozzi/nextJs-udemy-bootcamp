@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ReactNode } from 'react'
 import {DarkLayout} from '../components/layouts/DarkLayout'
 import {MainLayout} from '../components/layouts/MainLayout'
 
@@ -22,7 +23,7 @@ export default function About() {
   )
 }
 
-About.getLayout = function getLayout(page) {
+About.getLayout = function getLayout(page: ReactNode) {
   return (
     <MainLayout>
       <DarkLayout>
